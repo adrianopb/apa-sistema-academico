@@ -1,0 +1,22 @@
+﻿{
+  "defaultAssembly": "final2.Infrastructure",
+  "modules": [
+    {
+      "type": "final2.Infrastructure.Modules.WebApiModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "final2.Infrastructure.Modules.ApplicationModule",
+      "properties": {
+      }
+    },
+    {
+      "type": "final2.Infrastructure.Modules.InfrastructureModule",
+      "properties": {
+        "ConnectionString": "mongodb://10.0.75.1:27017",
+        "DatabaseName": "final2-V01"
+      }
+    }
+  ]
+}
